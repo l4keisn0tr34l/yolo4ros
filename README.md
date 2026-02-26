@@ -81,7 +81,7 @@ Launch the simulator environment as per the EUFS documentation. The camera topic
 ros2 launch yolo_bringup yolov9.launch.py \
   model:=/path/to/your/best.onnx \
   device:=cuda:0 \
-  input_image_topic:=/oak/rgb/preview/image_raw \
+  input_image_topic:=/oak/rgb/image_raw \
   reliability:=2
 ```
 
